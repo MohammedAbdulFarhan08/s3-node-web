@@ -19,25 +19,6 @@ Features
 
 Automatic Build & Deployment: GitHub Actions triggers deployment on every push to main.
 
-Project Structure
-s3-node-webapp/
-├─ package.json
-├─ index.js
-├─ build.js            # Generates index.html + copies static assets
-├─ public/
-│   ├─ css/
-│   │   └─ style.css   # Modern, responsive styling
-│   ├─ js/
-│   │   └─ script.js   # Interactive example
-│   └─ images/
-│       └─ logo.png
-└─ README.md
-
-
-->build.js generates index.html and copies all files from public/ to the build/ folder.
-
-->The build/ folder is synced to S3 during deployment.
-
 Modern Responsive UI: Clean design with gradients, cards, and buttons.
 
 Interactive Elements: Example button triggers a greeting using JavaScript.
