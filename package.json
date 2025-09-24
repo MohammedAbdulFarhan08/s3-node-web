@@ -1,0 +1,17 @@
+{
+  "name": "s3-node-webapp",
+  "version": "1.0.0",
+  "description": "A static Node.js web app for S3 deployment with upgraded UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "start": "node index.js",
+    "build": "node build.js"
+  },
+  "author": "Mohammed Farhan",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+  
+}
